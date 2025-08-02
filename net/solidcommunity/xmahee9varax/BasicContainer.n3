@@ -1,0 +1,45 @@
+@prefix : </#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix ldp: <http://www.w3.org/ns/ldp#>.
+@prefix space: <http://www.w3.org/ns/pim/space#>.
+@prefix stat: <http://www.w3.org/ns/posix/stat#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix xm: <>.
+@prefix inbox: </inbox/>.
+@prefix pro: </profile/>.
+@prefix pub: </public/>.
+@prefix set: </settings/>.
+@prefix m: <http://www.w3.org/ns/iana/media-types/text/markdown#>.
+@prefix pl: <http://www.w3.org/ns/iana/media-types/text/plain#>.
+
+xm:
+    a ldp:BasicContainer, ldp:Container, ldp:Resource, space:Storage;
+    dct:modified "2025-08-02T15:32:23.000Z"^^xsd:dateTime;
+    ldp:contains inbox:, pro:, pub:, xm:README, </robots.txt>, set:;
+    stat:mtime 1754148743 .
+inbox:
+    a ldp:BasicContainer, ldp:Container, ldp:Resource;
+    dct:modified "2025-08-02T15:32:22.000Z"^^xsd:dateTime;
+    stat:mtime 1754148742 .
+pro:
+    a ldp:BasicContainer, ldp:Container, ldp:Resource;
+    dct:modified "2025-08-02T15:32:22.000Z"^^xsd:dateTime;
+    stat:mtime 1754148742 .
+pub:
+    a ldp:BasicContainer, ldp:Container, ldp:Resource;
+    dct:modified "2025-08-02T15:32:22.000Z"^^xsd:dateTime;
+    stat:mtime 1754148742 .
+xm:README
+    a m:Resource, ldp:Resource;
+    dct:modified "2025-08-02T15:32:22.000Z"^^xsd:dateTime;
+    stat:mtime 1754148742;
+    stat:size 763 .
+</robots.txt>
+    a pl:Resource, ldp:Resource;
+    dct:modified "2025-08-02T15:32:22.000Z"^^xsd:dateTime;
+    stat:mtime 1754148742;
+    stat:size 86 .
+set:
+    a ldp:BasicContainer, ldp:Container, ldp:Resource;
+    dct:modified "2025-08-02T18:20:19.000Z"^^xsd:dateTime;
+    stat:mtime 1754158819 .
