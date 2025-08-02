@@ -1,0 +1,17 @@
+@prefix : </.meta#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix ldp: <http://www.w3.org/ns/ldp#>.
+@prefix space: <http://www.w3.org/ns/pim/space#>.
+@prefix stat: <http://www.w3.org/ns/posix/stat#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix xm: </>.
+@prefix inbox: </inbox/>.
+@prefix pro: </profile/>.
+@prefix pub: </public/>.
+@prefix set: </settings/>.
+
+xm:
+    a ldp:BasicContainer, ldp:Container, ldp:Resource, space:Storage;
+    dct:modified "2025-08-02T15:32:23.000Z"^^xsd:dateTime;
+    ldp:contains inbox:, pro:, pub:, xm:README, </robots.txt>, set:;
+    stat:mtime 1754148743 .
