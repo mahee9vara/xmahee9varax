@@ -13,5 +13,5 @@ pub:
     stat:mtime 1755542079 .
 com:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-18T18:34:39.000Z"^^xsd:dateTime;
-    stat:mtime 1755542079 .
+    dct:modified "2025-08-18T18:44:11.000Z"^^xsd:dateTime;
+    stat:mtime 1755542651 .
