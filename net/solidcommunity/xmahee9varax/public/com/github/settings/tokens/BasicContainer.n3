@@ -3,11 +3,9 @@
 @prefix ldp: <http://www.w3.org/ns/ldp#>.
 @prefix stat: <http://www.w3.org/ns/posix/stat#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix set: <./>.
-@prefix tok: <tokens/>.
+@prefix tok: <>.
 
-set:
+tok:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
     dct:modified "2025-08-18T19:06:43.000Z"^^xsd:dateTime;
-    ldp:contains tok:;
     stat:mtime 1755544003 .
