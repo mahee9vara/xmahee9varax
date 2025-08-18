@@ -16,7 +16,7 @@ stat: vann:preferredNamespacePrefix "posix".
 
 <2489798529.txt>
     a ldp:Resource;
-    dct:modified "2025-08-18T19:14:12.000Z"^^xsd:dateTime;
+    dct:modified "2025-08-18T19:20:55.000Z"^^xsd:dateTime;
     m:format "text/plain";
-    stat:mtime 1755544452;
-    stat:size 1 .
+    stat:mtime 1755544855;
+    stat:size 40 .
