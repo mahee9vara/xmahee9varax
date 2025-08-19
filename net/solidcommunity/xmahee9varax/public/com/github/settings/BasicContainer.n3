@@ -14,8 +14,8 @@ set:
     stat:mtime 1755615717 .
 sec:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-19T15:11:41.000Z"^^xsd:dateTime;
-    stat:mtime 1755616301 .
+    dct:modified "2025-08-19T15:21:12.000Z"^^xsd:dateTime;
+    stat:mtime 1755616872 .
 tok:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
     dct:modified "2025-08-18T19:20:55.000Z"^^xsd:dateTime;
