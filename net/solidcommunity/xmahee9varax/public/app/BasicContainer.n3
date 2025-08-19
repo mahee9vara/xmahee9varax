@@ -13,5 +13,5 @@ n0:
     stat:mtime 1755619983 .
 totp:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-19T16:13:03.000Z"^^xsd:dateTime;
-    stat:mtime 1755619983 .
+    dct:modified "2025-08-19T16:29:03.000Z"^^xsd:dateTime;
+    stat:mtime 1755620943 .
