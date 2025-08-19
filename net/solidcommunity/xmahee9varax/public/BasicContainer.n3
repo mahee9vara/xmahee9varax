@@ -4,13 +4,18 @@
 @prefix stat: <http://www.w3.org/ns/posix/stat#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix pub: <>.
+@prefix n0: <app/>.
 @prefix com: <com/>.
 
 pub:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-18T18:34:39.000Z"^^xsd:dateTime;
-    ldp:contains com:;
-    stat:mtime 1755542079 .
+    dct:modified "2025-08-19T16:03:35.000Z"^^xsd:dateTime;
+    ldp:contains n0:, com:;
+    stat:mtime 1755619415 .
+n0:
+    a ldp:BasicContainer, ldp:Container, ldp:Resource;
+    dct:modified "2025-08-19T16:03:35.000Z"^^xsd:dateTime;
+    stat:mtime 1755619415 .
 com:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
     dct:modified "2025-08-18T18:44:11.000Z"^^xsd:dateTime;

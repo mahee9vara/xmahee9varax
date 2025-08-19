@@ -27,8 +27,8 @@ pro:
     stat:mtime 1754148742 .
 pub:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-18T18:34:39.000Z"^^xsd:dateTime;
-    stat:mtime 1755542079 .
+    dct:modified "2025-08-19T16:03:35.000Z"^^xsd:dateTime;
+    stat:mtime 1755619415 .
 xm:README
     a m:Resource, ldp:Resource;
     dct:modified "2025-08-02T15:32:22.000Z"^^xsd:dateTime;
