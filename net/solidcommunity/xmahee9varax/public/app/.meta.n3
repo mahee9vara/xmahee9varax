@@ -4,8 +4,10 @@
 @prefix stat: <http://www.w3.org/ns/posix/stat#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix n0: <./>.
+@prefix totp: <totp/>.
 
 n0:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-19T16:03:35.000Z"^^xsd:dateTime;
-    stat:mtime 1755619415 .
+    dct:modified "2025-08-19T16:13:03.000Z"^^xsd:dateTime;
+    ldp:contains totp:;
+    stat:mtime 1755619983 .
