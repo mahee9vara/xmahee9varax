@@ -3,15 +3,9 @@
 @prefix ldp: <http://www.w3.org/ns/ldp#>.
 @prefix stat: <http://www.w3.org/ns/posix/stat#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix git: <>.
-@prefix set: <settings/>.
+@prefix sec: <./>.
 
-git:
-    a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-18T18:51:42.000Z"^^xsd:dateTime;
-    ldp:contains set:;
-    stat:mtime 1755543102 .
-set:
+sec:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
     dct:modified "2025-08-19T15:01:57.000Z"^^xsd:dateTime;
     stat:mtime 1755615717 .
