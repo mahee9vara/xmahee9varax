@@ -4,8 +4,14 @@
 @prefix stat: <http://www.w3.org/ns/posix/stat#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix n0: <>.
+@prefix rec: <recovery-codes/>.
 
 n0:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-19T15:30:22.000Z"^^xsd:dateTime;
-    stat:mtime 1755617422 .
+    dct:modified "2025-08-19T15:42:30.000Z"^^xsd:dateTime;
+    ldp:contains rec:;
+    stat:mtime 1755618150 .
+rec:
+    a ldp:BasicContainer, ldp:Container, ldp:Resource;
+    dct:modified "2025-08-19T15:42:30.000Z"^^xsd:dateTime;
+    stat:mtime 1755618150 .
