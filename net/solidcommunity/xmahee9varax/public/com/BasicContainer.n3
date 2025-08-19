@@ -4,13 +4,18 @@
 @prefix stat: <http://www.w3.org/ns/posix/stat#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix com: <>.
+@prefix f: <facebook/>.
 @prefix git: <github/>.
 
 com:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-18T18:44:11.000Z"^^xsd:dateTime;
-    ldp:contains git:;
-    stat:mtime 1755542651 .
+    dct:modified "2025-08-19T17:11:21.000Z"^^xsd:dateTime;
+    ldp:contains f:, git:;
+    stat:mtime 1755623481 .
+f:
+    a ldp:BasicContainer, ldp:Container, ldp:Resource;
+    dct:modified "2025-08-19T17:11:21.000Z"^^xsd:dateTime;
+    stat:mtime 1755623481 .
 git:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
     dct:modified "2025-08-18T18:51:42.000Z"^^xsd:dateTime;
