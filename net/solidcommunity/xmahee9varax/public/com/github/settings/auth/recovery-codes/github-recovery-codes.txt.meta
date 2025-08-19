@@ -2,17 +2,21 @@
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix ldp: <http://www.w3.org/ns/ldp#>.
 @prefix stat: <http://www.w3.org/ns/posix/stat#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix rec: <>.
-@prefix pl: <http://www.w3.org/ns/iana/media-types/text/plain#>.
+@prefix m: <http://www.w3.org/ns/ma-ont#>.
 
-rec:
-    a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-19T15:51:39.000Z"^^xsd:dateTime;
-    ldp:contains <github-recovery-codes.txt>;
-    stat:mtime 1755618699 .
+dct: vann:preferredNamespacePrefix "dc".
+
+xsd: vann:preferredNamespacePrefix "xsd".
+
+ldp: vann:preferredNamespacePrefix "ldp".
+
+stat: vann:preferredNamespacePrefix "posix".
+
 <github-recovery-codes.txt>
-    a pl:Resource, ldp:Resource;
+    a ldp:Resource;
     dct:modified "2025-08-19T15:51:39.000Z"^^xsd:dateTime;
+    m:format "text/plain";
     stat:mtime 1755618699;
     stat:size 206 .
