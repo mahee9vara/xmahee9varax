@@ -4,8 +4,10 @@
 @prefix stat: <http://www.w3.org/ns/posix/stat#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix n0: <./>.
+@prefix p: <password_and_security/>.
 
 n0:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-19T17:21:26.000Z"^^xsd:dateTime;
-    stat:mtime 1755624086 .
+    dct:modified "2025-08-19T17:30:05.000Z"^^xsd:dateTime;
+    ldp:contains p:;
+    stat:mtime 1755624605 .

@@ -3,15 +3,15 @@
 @prefix ldp: <http://www.w3.org/ns/ldp#>.
 @prefix stat: <http://www.w3.org/ns/posix/stat#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix n0: <>.
-@prefix p: <password_and_security/>.
+@prefix p: <>.
+@prefix two: <two_factor/>.
 
-n0:
-    a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-19T17:30:05.000Z"^^xsd:dateTime;
-    ldp:contains p:;
-    stat:mtime 1755624605 .
 p:
+    a ldp:BasicContainer, ldp:Container, ldp:Resource;
+    dct:modified "2025-08-19T17:40:02.000Z"^^xsd:dateTime;
+    ldp:contains two:;
+    stat:mtime 1755625202 .
+two:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
     dct:modified "2025-08-19T17:40:02.000Z"^^xsd:dateTime;
     stat:mtime 1755625202 .
