@@ -14,8 +14,8 @@ com:
     stat:mtime 1755623481 .
 f:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-19T17:11:21.000Z"^^xsd:dateTime;
-    stat:mtime 1755623481 .
+    dct:modified "2025-08-19T17:21:26.000Z"^^xsd:dateTime;
+    stat:mtime 1755624086 .
 git:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
     dct:modified "2025-08-18T18:51:42.000Z"^^xsd:dateTime;

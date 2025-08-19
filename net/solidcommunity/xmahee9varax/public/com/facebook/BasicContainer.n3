@@ -4,8 +4,14 @@
 @prefix stat: <http://www.w3.org/ns/posix/stat#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix f: <>.
+@prefix n0: <accountscenter/>.
 
 f:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-19T17:11:21.000Z"^^xsd:dateTime;
-    stat:mtime 1755623481 .
+    dct:modified "2025-08-19T17:21:26.000Z"^^xsd:dateTime;
+    ldp:contains n0:;
+    stat:mtime 1755624086 .
+n0:
+    a ldp:BasicContainer, ldp:Container, ldp:Resource;
+    dct:modified "2025-08-19T17:21:26.000Z"^^xsd:dateTime;
+    stat:mtime 1755624086 .
