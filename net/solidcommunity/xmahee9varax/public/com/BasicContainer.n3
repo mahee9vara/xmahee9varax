@@ -23,5 +23,5 @@ git:
     stat:mtime 1755543102 .
 tut:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-20T17:47:15.000Z"^^xsd:dateTime;
-    stat:mtime 1755712035 .
+    dct:modified "2025-08-20T17:57:32.000Z"^^xsd:dateTime;
+    stat:mtime 1755712652 .
