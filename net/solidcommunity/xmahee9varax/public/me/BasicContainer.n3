@@ -4,8 +4,14 @@
 @prefix stat: <http://www.w3.org/ns/posix/stat#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix me: <>.
+@prefix pro: <proton/>.
 
 me:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-20T15:46:05.000Z"^^xsd:dateTime;
-    stat:mtime 1755704765 .
+    dct:modified "2025-08-20T16:02:08.000Z"^^xsd:dateTime;
+    ldp:contains pro:;
+    stat:mtime 1755705728 .
+pro:
+    a ldp:BasicContainer, ldp:Container, ldp:Resource;
+    dct:modified "2025-08-20T16:02:08.000Z"^^xsd:dateTime;
+    stat:mtime 1755705728 .
