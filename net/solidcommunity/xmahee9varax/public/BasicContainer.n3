@@ -6,12 +6,13 @@
 @prefix pub: <>.
 @prefix n0: <app/>.
 @prefix com: <com/>.
+@prefix me: <me/>.
 
 pub:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-19T16:03:35.000Z"^^xsd:dateTime;
-    ldp:contains n0:, com:;
-    stat:mtime 1755619415 .
+    dct:modified "2025-08-20T15:46:05.000Z"^^xsd:dateTime;
+    ldp:contains n0:, com:, me:;
+    stat:mtime 1755704765 .
 n0:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
     dct:modified "2025-08-19T16:13:03.000Z"^^xsd:dateTime;
@@ -20,3 +21,7 @@ com:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
     dct:modified "2025-08-19T17:11:21.000Z"^^xsd:dateTime;
     stat:mtime 1755623481 .
+me:
+    a ldp:BasicContainer, ldp:Container, ldp:Resource;
+    dct:modified "2025-08-20T15:46:05.000Z"^^xsd:dateTime;
+    stat:mtime 1755704765 .
