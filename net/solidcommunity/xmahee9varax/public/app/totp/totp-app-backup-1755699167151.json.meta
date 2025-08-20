@@ -1,0 +1,22 @@
+@prefix : <#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix ldp: <http://www.w3.org/ns/ldp#>.
+@prefix stat: <http://www.w3.org/ns/posix/stat#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix m: <http://www.w3.org/ns/ma-ont#>.
+
+dct: vann:preferredNamespacePrefix "dc".
+
+xsd: vann:preferredNamespacePrefix "xsd".
+
+ldp: vann:preferredNamespacePrefix "ldp".
+
+stat: vann:preferredNamespacePrefix "posix".
+
+<totp-app-backup-1755699167151.json>
+    a ldp:Resource;
+    dct:modified "2025-08-20T15:30:47.000Z"^^xsd:dateTime;
+    m:format "application/json";
+    stat:mtime 1755703847;
+    stat:size 149 .
