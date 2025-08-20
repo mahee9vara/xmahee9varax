@@ -3,15 +3,9 @@
 @prefix ldp: <http://www.w3.org/ns/ldp#>.
 @prefix stat: <http://www.w3.org/ns/posix/stat#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix n0: <>.
-@prefix s: <safety-review/>.
+@prefix phr: <./>.
 
-n0:
-    a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-20T16:41:51.000Z"^^xsd:dateTime;
-    ldp:contains s:;
-    stat:mtime 1755708111 .
-s:
+phr:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
     dct:modified "2025-08-20T16:48:37.000Z"^^xsd:dateTime;
     stat:mtime 1755708517 .

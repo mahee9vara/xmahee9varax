@@ -4,8 +4,10 @@
 @prefix stat: <http://www.w3.org/ns/posix/stat#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix s: <./>.
+@prefix phr: <phrase/>.
 
 s:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-20T16:41:51.000Z"^^xsd:dateTime;
-    stat:mtime 1755708111 .
+    dct:modified "2025-08-20T16:48:37.000Z"^^xsd:dateTime;
+    ldp:contains phr:;
+    stat:mtime 1755708517 .
