@@ -19,8 +19,8 @@ n0:
     stat:mtime 1755619983 .
 com:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-19T17:11:21.000Z"^^xsd:dateTime;
-    stat:mtime 1755623481 .
+    dct:modified "2025-08-20T17:32:18.000Z"^^xsd:dateTime;
+    stat:mtime 1755711138 .
 me:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
     dct:modified "2025-08-20T16:02:08.000Z"^^xsd:dateTime;

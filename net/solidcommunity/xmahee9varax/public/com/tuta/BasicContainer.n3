@@ -3,13 +3,9 @@
 @prefix ldp: <http://www.w3.org/ns/ldp#>.
 @prefix stat: <http://www.w3.org/ns/posix/stat#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix com: <./>.
-@prefix f: <facebook/>.
-@prefix git: <github/>.
-@prefix tut: <tuta/>.
+@prefix tut: <>.
 
-com:
+tut:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-20T17:32:18.000Z"^^xsd:dateTime;
-    ldp:contains f:, git:, tut:;
-    stat:mtime 1755711138 .
+    dct:modified "2025-08-20T17:47:15.000Z"^^xsd:dateTime;
+    stat:mtime 1755712035 .
