@@ -7,5 +7,6 @@
 
 phr:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-20T16:48:37.000Z"^^xsd:dateTime;
-    stat:mtime 1755708517 .
+    dct:modified "2025-08-20T16:54:45.000Z"^^xsd:dateTime;
+    ldp:contains <proton_recovery_phrase-xmahee9varax.txt>;
+    stat:mtime 1755708885 .
