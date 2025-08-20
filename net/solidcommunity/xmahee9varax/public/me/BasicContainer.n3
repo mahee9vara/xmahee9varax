@@ -13,5 +13,5 @@ me:
     stat:mtime 1755705728 .
 pro:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-20T16:02:08.000Z"^^xsd:dateTime;
-    stat:mtime 1755705728 .
+    dct:modified "2025-08-20T16:11:51.000Z"^^xsd:dateTime;
+    stat:mtime 1755706311 .
