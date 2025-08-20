@@ -5,9 +5,10 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix two: <./>.
 @prefix n0: <authentication_app/>.
+@prefix rec: <recovery_codes/>.
 
 two:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-19T17:49:25.000Z"^^xsd:dateTime;
-    ldp:contains n0:;
-    stat:mtime 1755625765 .
+    dct:modified "2025-08-20T14:58:06.000Z"^^xsd:dateTime;
+    ldp:contains n0:, rec:;
+    stat:mtime 1755701886 .
