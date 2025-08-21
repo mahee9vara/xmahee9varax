@@ -1,4 +1,4 @@
 # xmahee9varax
 
 * [/net](./net)
-** [/solidcommunity](./net/solidcommunity)
+  * [/solidcommunity](./net/solidcommunity)
