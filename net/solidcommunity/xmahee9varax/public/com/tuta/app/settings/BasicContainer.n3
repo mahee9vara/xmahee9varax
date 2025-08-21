@@ -3,15 +3,9 @@
 @prefix ldp: <http://www.w3.org/ns/ldp#>.
 @prefix stat: <http://www.w3.org/ns/posix/stat#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix tut: <>.
-@prefix n0: <app/>.
+@prefix set: <>.
 
-tut:
-    a ldp:BasicContainer, ldp:Container, ldp:Resource;
-    dct:modified "2025-08-20T17:57:32.000Z"^^xsd:dateTime;
-    ldp:contains n0:;
-    stat:mtime 1755712652 .
-n0:
+set:
     a ldp:BasicContainer, ldp:Container, ldp:Resource;
     dct:modified "2025-08-21T15:34:11.000Z"^^xsd:dateTime;
     stat:mtime 1755790451 .
